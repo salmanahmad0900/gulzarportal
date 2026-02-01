@@ -11,7 +11,6 @@ import {
 } from "react-icons/fa";
 
 const Footer: React.FC = () => {
-  // Array of social links
   const socialLinks = [
     {
       name: "Facebook",
@@ -47,7 +46,7 @@ const Footer: React.FC = () => {
       name: "TikTok",
       icon: <FaTiktok size={24} />,
       href: "https://www.tiktok.com/@mpa.sheikhgulzarahmad?_r=1&_t=ZS-93YWW2fYxiq",
-      color: "hover:text-[#69C9D0]", // TikTok brand color
+      color: "hover:text-[#69C9D0]",
     },
   ];
 

@@ -19,7 +19,6 @@ export default function Home() {
             We are committed to resolving issues promptly and transparently.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="/submit">
               <Button
                 size="lg"
                 variant="white"
@@ -28,7 +27,6 @@ export default function Home() {
               >
                 Submit a Complaint
               </Button>
-            </Link>
             <Button size="lg" variant="white" >
               Learn More
             </Button>
